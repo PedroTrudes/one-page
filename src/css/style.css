@@ -136,10 +136,12 @@ header article p {
 /*Estilizando os produtos*/
 
 #quem-somos {
-    width: 100%;
+    align-items: center;
+    width: 90%;
     height: 400px;
-    background-color: #999;
+    background-color: #FFFFE5;
     border-radius: 30px;  
+    margin-left: 5%;
 }
 
 #imagem-quem{
@@ -155,7 +157,9 @@ header article p {
 #texto-quem h1{
     font-size: 30px;
     font-style: italic;
+    margin: 15px 20px;
 }
 #texto-quem p{
     font-size: 20px;
+    font-style: italic;
 }
