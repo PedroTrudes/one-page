@@ -133,7 +133,7 @@ header article p {
     color: rgb(36, 16, 214);
 }
 
-/*Estilizando os produtos*/
+/*Quem somos*/
 
 #quem-somos {
     align-items: center;
@@ -163,3 +163,5 @@ header article p {
     font-size: 20px;
     font-style: italic;
 }
+
+/*Produtos*/
