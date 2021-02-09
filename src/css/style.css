@@ -176,3 +176,38 @@ header article p {
 }
 
 /*Produtos*/
+
+#produtos{
+
+    padding-top: 15px;
+    background-color: #999;
+    position: relative;
+    height: 600px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+#titulo{
+    position: relative;
+    top: 8px;
+    text-align: center;
+    color: aqua;
+}
+
+#separacao{
+    position: relative;
+    top: 25px;
+    background-color: lavenderblush;
+    margin-left: 10px;
+    margin-right:10px ;
+    
+}
+#separacao article div{
+    background-color: lawngreen;
+    
+    
+}
