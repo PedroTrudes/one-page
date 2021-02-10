@@ -180,7 +180,7 @@ header article p {
 #produtos{
 
     padding-top: 15px;
-    background-color: #999;
+    background-color: aqua;
     position: relative;
     height: 600px;
     margin-top: 15px;
@@ -196,7 +196,7 @@ header article p {
     position: relative;
     top: 8px;
     text-align: center;
-    color: aqua;
+    color: #4070f4;
 }
 
 #separacao{
@@ -210,7 +210,8 @@ header article p {
 }
 
 #produtos article {
-    background-color: #4070f4;
+    
+    background-color: beige;
     margin: 2px;
     border-radius: 12px;
 }
