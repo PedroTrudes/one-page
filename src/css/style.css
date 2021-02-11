@@ -58,6 +58,7 @@ li {
     padding: 2% 3%;
     text-transform: uppercase;
     font-size: 20px;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .menu li a {
@@ -69,9 +70,9 @@ li {
 }
 
 .menu a:hover {
-    color: #fff;
-    border-color: #00f;
-    background: #999;
+    color: #96193C;
+    transition: 1.0s ease;
+    
 }
 
 /* header*/
@@ -131,6 +132,7 @@ header article button:hover {
 header article h1 {
     position: relative;
     text-transform: uppercase;
+    font-family: 'Hammersmith One', sans-serif;
     font-size: 35px;
     margin-top: 30px;
     color: rgb(150, 25, 60);
@@ -141,6 +143,7 @@ header article p {
     padding-right: 70%;
     margin: 20px 0px;
     font-size: 14px;
+    font-family: 'Hammersmith One', sans-serif;
     text-transform: uppercase;
     color: rgb(36, 16, 214);
 }
@@ -171,11 +174,13 @@ header article p {
     font-size: 30px;
     font-style: italic;
     margin: 15px 20px;
+    font-family: 'Hammersmith One', sans-serif;
 }
 #texto-quem p{
     font-size: 20px;
     font-style: italic;
     position: relative;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 /*Produtos*/
@@ -188,6 +193,7 @@ main .container h3{
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 main .container  .product{
@@ -197,7 +203,7 @@ main .container  .product{
 }
 
 .product {
-    background-color: #00f;
+    background-color: #FFFFE5;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -207,7 +213,8 @@ main .container  .product{
 }
 
 .product:hover{
-    background-color: #999;
+    
+    background-color: #F7562D;
 }
 
 .product img{
@@ -221,23 +228,27 @@ main .container  .product{
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 5px;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .product p {
     padding: 0px 20px;
     font-size: 1rem;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .product button{
     width: 50%;
     margin: 20px auto;
     padding: 10px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 3);
     text-transform: uppercase;
-    background-color: #999;
-    color: black;
+    background-color: #824D34;
+    color: white;
     cursor: pointer;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 3);
     transition: 0.3s ease;
@@ -268,71 +279,3 @@ main .container  .product{
     margin: 8px auto;
 }
 
-/*
-#produtos{
-
-    padding-top: 15px;
-    background-color: aqua;
-    position: relative;
-    height: 600px;
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 15px;
-    align-items: center;
-    text-align: center;
-    display: inline-block;
-}
-
-#titulo{
-    position: relative;
-    top: 8px;
-    text-align: center;
-    color: #4070f4;
-}
-
-#separacao{
-    position: relative;
-    top: 25px;
-    margin-left: 10px;
-    margin-right:10px ;
-    display:inline-flex;
-    
-    
-}
-
-#produtos article {
-    
-    background-color: beige;
-    margin: 2px;
-    border-radius: 12px;
-}
-
-#produtos h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rebeccapurple;
-    font-size: 20px;
-
-}
-#produtos p {
-    color: red;
-    font-size: 15px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-#produtos button{
-    position:relative;
-    background-color: #fff;
-    border-radius: 12px;
-    width: 100%;
-    height: 45px;
-    color:rgb(36, 16, 214);
-    
-}
-
-#produtos button:hover{
-    background-color: aqua;
-    transition: 0.5s;
-}
-*/
