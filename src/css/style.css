@@ -83,6 +83,9 @@ header {
     padding: 5px 25px;
 }
 
+#container{
+    background-color: #00f;
+}
 
 #fundo-menu {
     position:absolute;
@@ -176,7 +179,96 @@ header article p {
 }
 
 /*Produtos*/
+main {
+    margin: 20px 0px;
+}
 
+main .container h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+main .container  .product{
+    display: flex;
+    flex-direction: column;
+    transition: 1.5s ease;
+}
+
+.product {
+    background-color: #00f;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(15, 12, 12);
+
+}
+
+.product:hover{
+    background-color: #999;
+}
+
+.product img{
+    border-radius: 5px 5px 0px 0px;
+    height: 300px;
+
+}
+
+.product h2 {
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.product p {
+    padding: 0px 20px;
+    font-size: 1rem;
+}
+
+.product button{
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 3);
+    text-transform: uppercase;
+    background-color: #999;
+    color: black;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 3);
+    transition: 0.3s ease;
+}
+
+.product button:hover{
+    background-color: rosybrown;
+    color: #4070f4;
+}
+
+@media (min-width: 650px) {
+    main .container .product{
+        margin-left: 28px;
+        flex-direction: row;
+        display: inline-flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        transition: 1.5s ease;
+        height: 600px;
+    }
+    main .container .produtos .product{
+        width: 300px;
+    }
+}
+
+.container {
+    width: 90vm;
+    margin: 8px auto;
+}
+
+/*
 #produtos{
 
     padding-top: 15px;
@@ -243,3 +335,4 @@ header article p {
     background-color: aqua;
     transition: 0.5s;
 }
+*/
