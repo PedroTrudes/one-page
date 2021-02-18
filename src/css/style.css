@@ -283,4 +283,15 @@ main .container  .product{
 
 footer{
     background-color: #00f;
+
+}
+
+footer h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+footer p{
+    font-size: 25px;
+    color: #96193C;
 }
