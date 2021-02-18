@@ -282,13 +282,13 @@ main .container  .product{
 /*Footer*/
 
 footer{
-    background-color: #00f;
+    background-color: antiquewhite;
 
 }
 
 footer h1 {
     font-size: 50px;
-    color: #fff;
+    color: #824D34;
     text-align: center;
 }
 
@@ -296,3 +296,4 @@ footer p{
     font-size: 25px;
     color: #96193C;
 }
+
