@@ -279,3 +279,8 @@ main .container  .product{
     margin: 8px auto;
 }
 
+/*Footer*/
+
+footer{
+    background-color: #00f;
+}
