@@ -301,21 +301,17 @@ footer p{
 }
 
 .redes{
-    
-    
     width: 50%;
     height: 250px;
     display: inline-block;  
-    text-align: center;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     
 }
 
-.rede {
-    
-    width: 50px;
+.rede { 
+    width: 25%;
     height: 50px;
     margin-left: 25px;
     float: left;
@@ -323,8 +319,6 @@ footer p{
     border-radius: 50px;
    
 }
-
-
 
 .horarios {
     width: 50%;
