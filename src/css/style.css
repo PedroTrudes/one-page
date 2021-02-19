@@ -280,20 +280,38 @@ main .container  .product{
 }
 
 /*Footer*/
-
-footer{
-    background-color: antiquewhite;
-
+footer {
+    width: 100%;
+    background-color: tomato;
+    text-align: center;
+    
 }
 
 footer h1 {
-    font-size: 50px;
+    font-size: 25px;
     color: #824D34;
-    text-align: center;
+    
 }
 
 footer p{
     font-size: 25px;
     color: #96193C;
+    
+}
+
+
+.redes{
+    
+    background-color:teal;
+   width: 50%;
+    display: inline-block;
+}
+
+.horarios {
+    background-color: blue;
+    width: 50%;
+    float: right;
+    display: inline-block;
+
 }
 
