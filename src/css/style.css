@@ -282,12 +282,13 @@ main .container  .product{
 /*Footer*/
 footer {
     width: 100%;
-    background-color: tomato;
+    background-color: #FFFFE5;
     text-align: center;
     
 }
 
 footer h1 {
+    margin-top: 35px;
     font-size: 25px;
     color: #824D34;
     
@@ -299,17 +300,35 @@ footer p{
     
 }
 
-
 .redes{
     
-    background-color:teal;
-   width: 50%;
-    display: inline-block;
+    
+    width: 50%;
+    height: 250px;
+    display: inline-block;  
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+.rede {
+    
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    float: left;
+    margin-top: 50px;
+    border-radius: 50px;
+   
+}
+
+
+
 .horarios {
-    background-color: blue;
     width: 50%;
+    height: 250px;
     float: right;
     display: inline-block;
 
